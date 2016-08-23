@@ -23,6 +23,7 @@ public class Funcionario {
 	}
 
 
+	//Método que retorna novo salário com bonificação de 10%
 	public double getBonificacao() {
 		return this.salario * 0.10;
 	}
