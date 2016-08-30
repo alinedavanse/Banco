@@ -1,6 +1,6 @@
 package br.trainee.aline.banco;
 
-public class Funcionario {
+abstract class Funcionario {
 
 	protected String nome;
 	protected String cpf;
@@ -24,8 +24,11 @@ public class Funcionario {
 
 
 	//Método que retorna novo salário com bonificação de 10%
-	public double getBonificacao() {
+/*	public double getBonificacao() {
 		return this.salario * 0.10;
 	}
+	
+	*/
 
+	abstract double getBonificacao();
 }
