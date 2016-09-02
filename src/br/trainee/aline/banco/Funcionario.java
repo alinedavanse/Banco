@@ -4,7 +4,8 @@ abstract class Funcionario {
 
 	protected String nome;
 	protected String cpf;
-    double salario;
+	double salario;
+	int senha;
 
 	public String getNome() {
 		return nome;
@@ -22,13 +23,19 @@ abstract class Funcionario {
 		this.salario = salario;
 	}
 
+	// Método que retorna novo salário com bonificação de 10%
+	/*
+	 * public double getBonificacao() { return this.salario * 0.10; }
+	 * 
+	 */
 
-	//Método que retorna novo salário com bonificação de 10%
-/*	public double getBonificacao() {
-		return this.salario * 0.10;
+	public int getSenha() {
+		return senha;
 	}
-	
-	*/
+
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
 
 	abstract double getBonificacao();
 }
