@@ -1,5 +1,8 @@
 package br.trainee.aline.banco;
 
+import br.trainee.aline.banco.ContaCorrente;
+import br.trainee.aline.banco.SeguroDeVida;
+
 public class TesteTributavel {
 
 	public static void main(String[] args) {
